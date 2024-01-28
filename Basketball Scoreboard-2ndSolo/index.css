@@ -1,0 +1,92 @@
+html {
+    line-height: 1.5;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(CursedTimerULiL.ttf);
+}
+
+body {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;   
+    background: #1B244A
+    
+}
+
+.container {
+    background: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 575px;
+    height: 375px;
+    margin: auto;
+}
+
+
+.count-containter {
+    background: #080001;
+    border-radius: 5px;
+    width: 155px;
+    height: 135px;
+    font-weight: 100;
+    font-family: myFirstFont, sans-serif;
+    font-size: 70px;
+    color: #F94F6D;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 21px;
+    margin-top: 21px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.btn {
+    width: 45px;
+    height:45px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+    color: #9AABD8;
+    font-size: 18px;
+    font-family: myFirstFont, sans-serif;
+    margin: 21px 2px;
+    cursor: pointer;
+}
+
+.btn-reset {
+    background: #9AABD8;
+    color: #080001;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    border: 1px solid #080001;
+    box-shadow: 0px 0px 1px #080001;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #9AABD8;
+    color: #1B244A;
+}
+
+#winner {
+    font-size: 30px;
+    font-weight: bold;
+    transform: translateY(-20px);
+    
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 20px;
+    
+    
+}
