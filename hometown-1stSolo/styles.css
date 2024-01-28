@@ -1,0 +1,101 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ line-height: 1.5;
+ color: #3b3f20;
+ font-size: 1.6rem;
+}
+
+.hero {
+    background-image: url("images/Egypt.webp");
+    background-size: 100% 400px;
+    color: #ffffff;
+    padding: 80px 0;
+    box-shadow: 0px 0px 1px black;
+
+}  
+
+#hero-h1 {
+    background: #63683c;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#hero-h2 {
+    background: #3b3f20;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;   
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin: 0px;
+}
+
+.activites {
+    padding: 10px 0px 0px;
+    background: #f2f9f9;
+}
+
+.activity {
+    padding: 0 10px;
+    text-align: center;
+}
+
+.activity:hover {
+    background: #7fbfd7;
+}
+
+.activites-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.activity-img {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 100%;
+}
+
+.activity-img:hover {
+   /* transform: translateY(25px) scale(1.2);*/
+   width: max-content;
+   height: max-content;
+}
+
+
+.guide {
+    margin: 30px auto;
+    display: flex;
+    width: 70%;
+    padding: 10px;
+    border-radius: 20px;
+    background: #90ab39;
+}
+#avatar {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.guide-h2 {
+    padding: 0;
+    margin: 0;
+}
