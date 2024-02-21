@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <h1>Jimmy’s Diner</h1>
+      <h2>The best burgers and pizzas in town.</h2>
+    </nav>
+    <div class="menu">
+      <div id="menu-section">
+      </div>
+      <div id="order" class="order hidden">
+        <h3 id="order-title">Your order</h3>
+        <div id="order-details">
+        </div>
+        <div id="total-price">
+          <span class="order-style">Total Price:</span>
+          <span id="order-price"></span>
+        </div>
+        <button class="order-btn" id="complete-btn">Complete Order</button>
+      </div>
+
+    </div>
+
+    <div id="pop-up" class="hidden">
+      <p class="bold">Enter Card details</h2>
+      <form>
+        <input type="text" id="user-name"  maxlength="40" placeholder="Enter your name" required/>
+        <input type="number" id="card-no" min="0" max="99999999" placeholder="Enter your card number" required/>
+        <input type="number" id="cvv" min="0" max="999" placeholder="Enter CVV" required/>
+      </form>
+      <button class="order-btn" id="pay-btn">Pay</button>
+    </div>
+
+    <div id="thanks-msg" class="hidden">
+        <p>Thanks,<span id="user"></span> Your order is on its way!</p>
+    </div>
+
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
